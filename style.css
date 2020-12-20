@@ -1,0 +1,94 @@
+body{
+
+	font-family: arial,heluetica,sans-serif;
+	font-size:16px;
+
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	color: blue;
+}
+a:active{
+	color: green;
+}
+a:visited{
+	color: black;
+}
+h1{
+	text-align:center;
+	color:green;
+}
+p{
+	line-height: 1.5em;
+}
+.c1
+{
+	color:#A3E265;
+	background-color: black;
+	border : red 15px solid;
+	border-left: green 15px solid;
+	padding-left: 20px;
+    padding-right: 20px; 
+}
+.c2{
+	color:#BC30D5;
+	background-color: yellow;
+	font font-family: tahoma;
+	font-style: bold;
+	text-decoration: underline;
+	text-decoration: uppercase;
+	letter-spacing: 0.2em;
+	word-spacing: 0.5em;
+
+}
+.c3{
+	border: 1px red solid;
+	border-radius: 10px;
+}
+.container{
+	width: 80%;
+	margin: auto;
+	margin-top: 100px;
+}
+.c3 li{
+	padding-bottom: 0.4px;
+	border-bottom: red 5px dotted;
+}
+.c3 ul{
+	list-style-image: url('../images/im');
+}
+.f1{
+	padding: 20px;
+}
+.fg{
+	padding-bottom:  20px;
+}
+.f1 label{
+	display: block;
+}
+.f1 input[type="number"]{
+	padding: 20px;
+	width: 100%;
+}
+.button{
+	background-color: #333;
+	color: white;
+	padding: 10px;
+	border:none;
+}
+.button:hover{
+	background: red;
+	color: white;
+}
+.block{
+	float: left;
+	width: 33%;
+	border:1px solid black;
+	padding-bottom: 10px;
+	box-sizing: border-box; 
+}
+
+
+
